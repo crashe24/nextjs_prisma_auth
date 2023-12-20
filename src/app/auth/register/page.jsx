@@ -39,7 +39,7 @@ const RegisterPAge = () => {
         <form onSubmit={onSubmit} className="w-1/4" noValidate>
             <h1 className="text-slate-200 font-bld text-4xl">Register</h1>
             <label htmlFor="username" className="text-slate-500 mb-2">Username</label>
-            <input type="text"  {...register('username',{ required: {
+            <input name="username" type="text"  {...register('username',{ required: {
                 value: true,  message: 'Username is required'
             }})}
                 className= "p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"

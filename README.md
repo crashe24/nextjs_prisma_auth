@@ -46,3 +46,6 @@ npm i bcrypt
 npm i react-hook-form
 
 # añadir next auth
+npm i next-auth
+
+# Para las ultimas versiones de next dentro de api -> auth --> [...nextauth] --> route.js
