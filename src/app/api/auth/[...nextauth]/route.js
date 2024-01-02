@@ -3,8 +3,8 @@ import NextAuth from "next-auth/next";
 import CredentialsProviders from 'next-auth/providers/credentials'
 import bcrypt from 'bcrypt'
 
-const authOptions = {
-    secret:'clase',
+export const authOptions = {
+    secret:'palabrasecreta',
     providers:[
         CredentialsProviders({
             name:"Credentials",

@@ -23,6 +23,7 @@ const LoginPage = () => {
     } else {
       console.log('enviando a mi dashboard')
       router.push('/dashboard')
+      router.refresh()
     }
 
     console.log('respuesta', respuesta)
